@@ -1,6 +1,5 @@
 const http = require("http");
-
-const glicose = "120";
+const glicose = process.env.GLICOSE || "120";
 
 const server = http.createServer((req, res) => {
   if (req.url === "/glicose") {
