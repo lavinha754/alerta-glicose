@@ -1,0 +1,10 @@
+{
+  "name": "alerta-glicose",
+  "version": "1.0.0",
+  "description": "Integração Alexa para consulta de glicose",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
